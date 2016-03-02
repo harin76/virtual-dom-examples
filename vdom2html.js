@@ -27,6 +27,10 @@ var dom = {
     }]
 };
 
+/**
+* A function that recursively converts JSON DOM specification to
+* VNodes and VText
+*/
 var convertToVNode = function (node) {
 
     var children = [];
