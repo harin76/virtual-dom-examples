@@ -17,8 +17,8 @@ var dom = {
         properties: {className: 'container'},
         children: [{
             tagName: 'div',
-            properties: {className:'row', id:'v-row', width:'300px', height:'500px'},
-            children:[{tagName: 'div', properties: {className: 'col'}, children:['I am a text node inside a div']}]
+            properties: {className:'row', id:'v-row', style:{width:'300px', height:'500px'}},
+            children:[{tagName: 'div', properties: {className: 'col col-12'}, children:['I am a text node inside a div']}]
         }]
       },
       {tagName: 'script', properties:{src:'cdn.google.com/my-lib.js'}},
